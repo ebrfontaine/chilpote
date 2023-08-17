@@ -11,7 +11,7 @@ const Finish = () => {
     }
     return (
         <div>
-
+sadasdasd
             <div className='flex w-full h-full justify-center relative mt-[2rem]'>
                 <Image className='' width={200} height={200} alt={"cilpote"} src={"/cmg-medallion-logo.svg"}></Image>
             </div>
