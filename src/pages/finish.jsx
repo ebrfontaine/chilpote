@@ -23,7 +23,7 @@ const Finish = () => {
                     <Image className='opacity-100 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2' value="poop" id="card" width={200} height={100} alt={"cilpote"} src={"/chipotle.png"}></Image>
                 </div>
             </div>
-            <h1 className='top-[77%] left-1/2 -translate-x-1/2 absolute text-2xl font-bold opacity-0 text-center' id="free">$20 Chipotle gift card <br></br> + <br></br> one time free pickup</h1>
+            <h1 className='top-[77%] left-1/2 -translate-x-1/2 absolute text-2xl font-bold opacity-0 text-center' id="free">$20 Chipotle gift card <br></br> + <br></br> One time free pickup</h1>
             <button className=' px-10 py-2 rounded-full text-[#220a01] font-bold text-l bg-white top-[85%] left-1/2 -translate-x-1/2 absolute' onClick={redeem}>REDEEM NOW!</button>
             
             
