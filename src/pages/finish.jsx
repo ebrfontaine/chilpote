@@ -2,13 +2,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const Finish = () => {
-    const redeem = async (e) => {
-        document.getElementById("card").style.opacity = "0"
-        document.getElementById("text").style.opacity = "100"
-        document.getElementById("free").style.opacity = "100"
-        e.target.style.opacity = "0"
-        e.target.style.cursor = "default"
-    }
+    // const redeem = async (e) => {
+    //     document.getElementById("card").style.opacity = "0"
+    //     document.getElementById("text").style.opacity = "100"
+    //     document.getElementById("free").style.opacity = "100"
+    //     e.target.style.opacity = "0"
+    //     e.target.style.cursor = "default"
+    // }
     return (
         <div>
 
