@@ -14,7 +14,7 @@ export default function Home() {
     inp+=event.target.c.value
     inp+=event.target.d.value
     if (inp == activate) {
-      console.log("yay?")
+      document.write("ahah")
     } else {
       event.preventDefault();
       alert("Incorrect");
