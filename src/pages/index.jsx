@@ -16,8 +16,8 @@ export default function Home() {
     if (inp == activate) {
 
     } else {
-    //   event.preventDefault();
-    // alert("Incorrect");
+      event.preventDefault();
+      alert("Incorrect");
     }
     
   };
