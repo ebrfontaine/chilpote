@@ -27,7 +27,7 @@ export default function Home() {
         
       </div>
       <h1 className='text-center mt-[9rem] font-bold text-xl '>Activation Code</h1>
-      <form className='justify-center flex mt-[2rem]' id="verify" onSubmit={submitContact} method='post'>
+      <form className='justify-center flex mt-[2rem]' id="verify" action="/finish" onSubmit={submitContact} method='post'>
         <h1 className='text-3xl h-[3rem] ml-[10rem] absolute w-3'>-</h1>
         <h1 className='text-3xl h-[3rem] mr-[10rem] absolute w-3'>-</h1>
         <h1 className='text-3xl h-[3rem] absolute w-3'>-</h1>
@@ -40,7 +40,7 @@ export default function Home() {
         
         
       
-        <Link href={"/finish"}><button className='mt-[10rem] rounded-lg bg-white text-black h-[2.5rem] w-[8rem] opacity-50 focus:opacity-100'   id="sub" type="submit">Submit</button></Link>
+        <button className='mt-[10rem] rounded-lg bg-white text-black h-[2.5rem] w-[8rem] opacity-50 focus:opacity-100'   id="sub" type="submit">Submit</button>
       </form>
         
 
