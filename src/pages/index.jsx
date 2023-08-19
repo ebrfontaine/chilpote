@@ -13,9 +13,7 @@ export default function Home() {
     inp+=event.target.b.value
     inp+=event.target.c.value
     inp+=event.target.d.value
-    if (inp == activate) {
-      document.write("ahah")
-    } else {
+    if (inp != activate) {
       event.preventDefault();
       alert("Incorrect");
     }
