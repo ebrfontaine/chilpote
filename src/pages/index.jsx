@@ -8,15 +8,15 @@ export default function Home() {
   const activate = "aouh4hsdao19m2a0" 
   const submitContact = async (event) => {
     
-    let inp = ""
-    inp+=event.target.a.value
-    inp+=event.target.b.value
-    inp+=event.target.c.value
-    inp+=event.target.d.value
-    if (inp != activate) {
-      event.preventDefault();
-      alert("Incorrect");
-    }
+    // let inp = ""
+    // inp+=event.target.a.value
+    // inp+=event.target.b.value
+    // inp+=event.target.c.value
+    // inp+=event.target.d.value
+    // if (inp != activate) {
+    //   event.preventDefault();
+    //   alert("Incorrect");
+    // }
     
   };
 
