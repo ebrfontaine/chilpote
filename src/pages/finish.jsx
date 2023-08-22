@@ -18,7 +18,7 @@ const Finish = () => {
             <h1 className='mt-[4rem] left-1/2  underline -translate-x-1/2 absolute text-4xl font-black'>QUINN!!!</h1>
             <div className='flex justify-center'>
                 <div  className='top-[28rem] -translate-y-1/2 absolute w-[312px] h-[194px] rounded-xl bg-[#e9eaea] animate-bounce'>
-                    <h1 id="text" className='left-[10%] absolute top-1/2 -translate-y-1/2 text-2xl font-bold opacity-0 text-black'>098fd-suio-hdsu-9d32</h1>
+                    <h1 id="text" className='left-[10%] absolute top-1/2 -translate-y-1/2 text-2xl font-bold opacity-0 text-black'>6309-8863-5874-1580</h1>
                     <Image className='opacity-100 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2' value="poop" id="card" width={200} height={100} alt={"cilpote"} src={"/chipotle.png"}></Image>
                 </div>
             </div>
